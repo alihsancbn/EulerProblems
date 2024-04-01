@@ -10,9 +10,9 @@ public class Euler1 {
         
         for (int i = 1; i < 1000; i++) {        //checking numbers below 
             
-            if (i % 3 ==0 || i % 5 ==0) {       //checking if the number is dividable by 3 or 5
+            if (i % 3 ==0 || i % 5 ==0) {       //checking if the number is divisible by 3 or 5
                 
-                sum+=i;                         //if the number is dividable to 3 or 5, adds the number to the sum 
+                sum+=i;                         //if the number is divisible to 3 or 5, adds the number to the sum 
                 
             }
         }
